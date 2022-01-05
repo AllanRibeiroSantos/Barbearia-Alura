@@ -1,0 +1,154 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.8em;
+	background: #FFFFFF;
+}
+
+/* HEADER */
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 900;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+/* HOME */
+
+section {
+	width: 80%;
+	margin: 50px auto;
+}
+
+#banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.tools {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.conteudo {
+	margin-top: 30px;
+}
+
+.conteudo ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+}
+
+section p + p {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.mapa {
+	width: 80%;
+}
+
+.beneficios {
+	box-sizing: border-box;
+	width: 60%;
+}
+
+.beneficios ul li {
+	line-height: 30px;
+}
+
+.beneficios ul li:before {
+	content: "✄";
+	margin-right: 5px;
+}
+
+.imagembeneficios {
+	width: 65%;
+	box-shadow: 10px 10px 10px;
+	transition: 300ms;
+}
+
+.imagembeneficios:hover {
+	opacity: 0.7;
+}
+
+.video {
+	width: 720px;
+}
+
+.video iframe {
+	padding: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 0.6em;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+	body {
+		background: red;
+	}
+
+	header, .caixa  {
+		width: auto;
+	}
+
+	nav {
+		position: static;
+	}
+}
