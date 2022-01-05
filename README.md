@@ -8,7 +8,7 @@ Dei-me a liberdade de melhorar o projeto usando os conhecimentos que tenho, mude
 
 Ilustração:
 
-<div align="center"><img src="https://user-images.githubusercontent.com/61354355/148302335-8aad691e-b4a4-401a-90d5-bfb3516ed357.gif"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61354355/148302335-8aad691e-b4a4-401a-90d5-bfb3516ed357.gif"></div><br>
 
 Para uma visualização melhor do projeto veja no meu canal do Youtube, lá eu faço videos curtos onde eu mostro cada um deles.
 
